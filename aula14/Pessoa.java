@@ -2,7 +2,7 @@ package aula14;
 
 import javax.swing.JOptionPane;
 
-public class Pessoa {
+public abstract class Pessoa {
     protected String nome;
     protected int idade;
     protected char sexo;
@@ -10,10 +10,6 @@ public class Pessoa {
 
     protected void ganharExp() {
         this.setExperiencia(this.getExperiencia() + 1);
-    }
-
-    public void status() {
-        JOptionPane.showMessageDialog(null, "--- STATUS PESSOA ---\n\nNOME: " + this.getNome() + "\nIDADE: " + this.getIdade() + " anos\nSEXO: " + this.getSexo() + "\nEXPERIÊNCIA: " + this.getExperiencia());
     }
 
     public Pessoa(String nome, int idade, char sexo) {
