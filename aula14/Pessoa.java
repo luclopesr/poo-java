@@ -1,7 +1,5 @@
 package aula14;
 
-import javax.swing.JOptionPane;
-
 public abstract class Pessoa {
     protected String nome;
     protected int idade;
