@@ -1,3 +1,5 @@
+package aula12;
+
 import javax.swing.JOptionPane;
 
 public class Cachorro extends Mamifero{
