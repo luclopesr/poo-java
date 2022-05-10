@@ -21,9 +21,9 @@ public class Aula14 {
         Vizualizacao vis[] = new Vizualizacao[5];
         vis[0] = new Vizualizacao(g[0], v[2]);
         vis[1] = new Vizualizacao(g[0], v[0]);
-        vis[0].status();
-        vis[1].status();
-        g[0].status();
-        v[2].status();
+        //vis[0].status();
+        //vis[1].status();
+        //g[0].status();
+        //v[2].status();
     }
 }

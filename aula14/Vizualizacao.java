@@ -21,11 +21,11 @@ public class Vizualizacao {
 
     public void avaliar(float porc) {
         int tot = 0;
-        if (porc <= 20) {
+        if (porc <= 20.0f) {
             tot = 3;
-        } else if (porc <= 50) {
+        } else if (porc <= 50.0f) {
             tot = 5;
-        } else if (porc <= 90) {
+        } else if (porc <= 90.0f) {
             tot = 8;
         } else {
             tot = 10;
