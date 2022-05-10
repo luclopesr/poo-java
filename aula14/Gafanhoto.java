@@ -11,7 +11,7 @@ public class Gafanhoto extends Pessoa{
     }
 
     public void status() {
-        JOptionPane.showMessageDialog(null, "--- STATUS GAFANHOTO ---\n\nNOME: " + this.getNome() + "\nLOGIN: @" + this.getLogin() + "\nIDADE: " + this.getIdade() + " anos\nSEXO: " + this.getSexo() + "\nEXPERIÊNCIA: " + this.getExperiencia() + "\nVÍDEOS ASSISTIDO: " + this.getTotAssistido());
+        JOptionPane.showMessageDialog(null, "--- STATUS GAFANHOTO ---\n\nNOME: " + this.getNome() + "\nLOGIN: @" + this.getLogin() + "\nIDADE: " + this.getIdade() + " anos\nSEXO: " + this.getSexo() + "\nEXPERIÊNCIA: " + this.getExperiencia() + "\nVÍDEOS ASSISTIDOS: " + this.getTotAssistido());
     }
 
     public Gafanhoto(String nome, int idade, char sexo, String login) {

@@ -48,6 +48,8 @@ public class Video implements AcoesVideo{
     }
 
     public void setAvaliacao(int avaliacao) {
+        int nova;
+        nova = (this.avaliacao + avaliacao)/views;
         this.avaliacao = avaliacao;
     }
 
